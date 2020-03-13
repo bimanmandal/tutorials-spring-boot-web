@@ -1,2 +1,9 @@
 server:
-  port: 8090
+  port: 9090
+spring:
+  thmeleaf:
+    cache: false
+  resources:
+    static-locations:
+      - file:src/main/resources/static
+      - file:src/main/resources/templates

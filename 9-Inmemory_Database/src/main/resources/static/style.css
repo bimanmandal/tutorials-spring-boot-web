@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+}
+
+body {
+    border: 10px solid royalblue;
+    height: 100vh;
+}
+
+.container {
+    background-color: #FFD700;
+    display: grid;
+    justify-items: stretch;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    margin: 10px auto;
+}
+
+.description {
+    grid-column: 1 / -1;
+    border-bottom: 2px solid royalblue;
+}
+
+.content {
+    /* background-color: orange; */
+    grid-column: 2 / -2;
+    padding: 10px;
+
+}
+
+.form {
+    font-size: 30px;
+}
+
+.submit {
+    grid-column: 3 / -3;
+}
+
+.result {
+    /* background-color: crimson; */
+    margin-top: 50px;
+    grid-column: 1 / -1;
+    font-size: 30px;
+}

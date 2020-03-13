@@ -1,31 +1,31 @@
 package com.biman.tutorial.model;
 
 public class Student {
-    int id;
-    String name;
-    int score;
+  int id;
+  String name;
+  int score;
 
-    public int getId() {
-        return id;
-    }
+  public int getId() {
+    return id;
+  }
 
-    public void setId(int id) {
-        this.id = id;
-    }
+  public void setId(int id) {
+    this.id = id;
+  }
 
-    public String getName() {
-        return name;
-    }
+  public String getName() {
+    return name;
+  }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+  public void setName(String name) {
+    this.name = name;
+  }
 
-    public int getScore() {
-        return score;
-    }
+  public int getScore() {
+    return score;
+  }
 
-    public void setScore(int score) {
-        this.score = score;
-    }
+  public void setScore(int score) {
+    this.score = score;
+  }
 }
